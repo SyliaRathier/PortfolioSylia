@@ -1,0 +1,742 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body{
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    padding: 0;
+    margin: 8px;
+}
+
+h5{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SECTION 1 première page */
+
+.first_page{
+    /* background: linear-gradient(100.84deg, #BBF2B7 21.98%, #f9f9c7 37.94%, rgba(232, 184, 255, 0.95) 50.88%, rgba(176, 189, 255, 0.902134) 63.4%, rgba(124, 222, 243, 0.83) 81.03%); */
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content:column;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.first_page_titre{
+    height: 100vh;
+    width: 70%;
+    display: block;
+        
+}
+
+.voir_plus_container{
+    height: 100vh;
+    width: 30%;
+    
+}
+
+.font{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+    position: relative;
+    top:15vh;
+
+}
+
+.font_balise{
+    margin-left: 25px;
+    font-size: 70px;
+    font-style: italic;
+}
+
+.font_texte{
+    margin-left: 160px;
+    font-size: 70px;
+
+}
+
+.font_commentaire{
+    margin-left: 25px;
+    margin-top: 9px;
+    font-size: 40px;
+    color: rgb(82, 82, 84);
+    font-style: italic;
+}
+
+
+.voir_plus{
+    width: fit-content;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 140px;
+    position: relative;
+    top:70vh;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+
+
+/* SECTION 2 Formation */
+
+
+.formation{
+       
+    height: 120vh;
+    width: auto;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+.font_titre{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.titre_formation{
+    color: rgb(0, 0, 0);
+}
+
+.titre_experiences{
+    
+}
+
+
+
+
+.texte_formation{
+    height: 100vh;
+    width: 47%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+    
+}
+
+.but_info{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    opacity: 80%;
+
+
+}
+
+.lycee{
+    margin-bottom: 15px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    opacity: 80%;
+
+
+}
+
+.barre_formation{
+    height: 100vh;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.barre{
+    height: 95vh;
+    background-color: rgb(209, 20, 20);
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255);
+    opacity: 80%;
+    box-shadow:  12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo_formation{
+    height: 100vh;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.experience1{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    opacity: 80%;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.experience2{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+
+}
+
+.logoIUT{
+    width : 150px;
+    height : 50px;
+    padding-top: 5px;
+}
+
+.logoLycee{
+    width : 150px;
+    height : 50px;
+    padding-top: 5px;
+}
+
+.logoEvalandgo{
+    width : 150px;
+    height : 50px;
+    margin-top: 25px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+.voir_plus2{
+    width: fit-content;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 90px;
+    left: 345px;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+
+
+
+
+/* MENU BURGER */
+
+a {color:inherit}
+
+#burger {
+  width:35px;
+  height:4px;
+  background:rgb(0, 0, 0);
+  
+  display:inline-block;
+  position:fixed;
+  top: 40px;
+  right: 70px;
+}
+#burger::before,
+#burger::after {
+  content:'';
+  width:35px;
+  height:4px;
+  background:rgb(0, 0, 0);
+  display:inline-block;
+  position:absolute;
+  transform-origin: center;
+  transition: all 0.3s ease;
+
+}
+#burger::before {
+  top:-7px;
+}
+#burger::after {
+  top:7px;
+}
+
+#burger.open {
+  background:transparent;
+}
+#burger.open::before {
+  transform: rotate(45deg);
+  top:0;
+}
+#burger.open::after {
+  transform: rotate(-45deg);
+  top:0;
+}
+
+header {
+  position:relative;
+  max-width:500px;
+}
+ul {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+  position:fixed;
+  top: 40px;
+  right: 50px;
+  width:500px;
+  border-radius: 5px;
+  
+  padding:10px 0;
+  transform:scaleY(0);
+  transform-origin:center top;
+  transition:all 0.3s ease;
+}
+
+li:hover{
+    font-weight: 800;
+}
+
+ul.open {
+  transform:scaleY(1);
+}
+ul li {
+  padding:10px 0;
+  text-align:center
+}
+
+
+
+/* SECTION 3 Projet 1 de conduite de projet*/
+
+
+.projet1{
+    
+    height: 120vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projet1_container{
+    display: flex;
+}
+.sujet_projet1{
+    margin: 0;
+    padding: 0;
+
+}
+
+.titre_projet1{
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+}
+
+.image_projet1{
+
+    padding-bottom: 70px;
+    height: 80vh;
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_projet1{    
+
+    height: 80vh;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text_projet1_div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 400px;
+    width: 450px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gant{
+    width: 550px;
+    height: 200px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.pert{
+    width: 550px;
+    height: 200px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.paragraphe_p1{
+    margin: 15px;
+    padding: 25px 0px 0px 0px;
+    font-weight: bold;
+    
+}
+
+.pnt_p1{
+    margin: 0px 15px 0px 15px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION 4 Projet 2 de conduite de projet*/
+
+
+.projet2{
+   
+    
+    height: 120vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projet2_container{
+    display: flex;
+}
+.sujet_projet2{
+    margin: 0;
+    padding: 0;
+
+}
+
+.titre_projet2{
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+}
+
+.image_projet2{
+
+    padding-bottom: 70px;
+    height: 80vh;
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_projet2{    
+
+    height: 80vh;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text_projet2_div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 400px;
+    width: 450px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sql{
+    width: 400px;
+    height: 200px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+.schemaEA{
+    width: 400px;
+    height: 200px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.paragraphe_p1{
+    margin: 15px;
+    padding: 25px 0px 0px 0px;
+    font-weight: bold;
+    
+}
+
+.pnt_p1{
+    margin: 0px 15px 0px 15px;
+    text-align: justify;
+}
+
+
+
+
+
+/* SECTION 5 Projet 3 la nuit de l'info*/
+
+
+.projet3{
+    
+    
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projet3_container{
+    display: flex;
+}
+.sujet_projet3{
+    margin: 0;
+    padding: 0;
+
+}
+
+.titre_projet3{
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+}
+
+.image_projet3{
+    margin-top: 40px;
+    padding-bottom: 70px;
+    height: 80vh;
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text_projet3{    
+
+    height: 80vh;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text_projet3_div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 400px;
+    width: 450px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.paragraphe_p1{
+    margin: 15px;
+    padding: 25px 0px 0px 0px;
+    font-weight: bold;
+    
+}
+
+.pnt_p1{
+    margin: 0px 15px 0px 15px;
+    text-align: justify;
+}
+
+
+
+
+
+
+/* Projet 4 Your Voice*/
+
+.projet4{
+    
+    
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Information CV et vidéo*/
+
+.information{
+    
+    
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content:center ;
+
+}
+
+.propos_container {
+    
+
+
+}
+
+.aPropos {
+    
+
+}
+
+.aProposTexte {
+    
+
+}
+
+.btn_aPropos {
+   
+
+}
+
+.cv {
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+
+
+.btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 12px;
+    border: none;
+    background-color: #a9a6fe5d;
+    
+
+
+
+}
+
+.btn:hover{
+    background-color:  rgb(223, 221, 221);
+}
+
+.texte{
+    padding: 40px 100px 40px 100px;
+    text-align: justify;
+}
+
+.propos_container{
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+
+    
+
+}
+
+/* Modal pour vidéo */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width:60%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .video{
+    padding: 0px;
+    margin: 0px;
+  }
