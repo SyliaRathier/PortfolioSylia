@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 body{
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084cb 100%);
     height: auto;
     width: auto;
     margin: 0;
@@ -535,7 +535,7 @@ ul li {
 .projet3{
     
     
-    height: 100vh;
+    height: 120vh;
     width: auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -606,17 +606,6 @@ ul li {
 
 
 
-
-/* Projet 4 Your Voice*/
-
-.projet4{
-    
-    
-    height: 100vh;
-    width: auto;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
 
 
 /* Information CV et vidéo*/
@@ -740,3 +729,18 @@ ul li {
     padding: 0px;
     margin: 0px;
   }
+
+
+  /*Projet 4 */
+
+  .projet4{
+    
+    
+    height: 120vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content:center ;
+
+}
