@@ -743,4 +743,29 @@ ul li {
     display: flex;
     justify-content:center ;
 
-}
+    }
+
+    .projet4_container{
+        background-color: rgb(255, 255, 255);
+        width: 70vw;
+        height: 95vh;
+        border-radius: 10px;
+        box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .contact{
+        padding-bottom: 50px ;
+        width: auto;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content:center ;
+    }
+
+    .logo_linkedIn{
+        margin: 20px;
+    }
+
+    .logo_gitHub{
+        margin: 20px;
+    }
