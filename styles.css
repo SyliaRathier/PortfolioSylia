@@ -622,11 +622,8 @@ ul li {
 
 }
 
-.propos_container {
-    
 
 
-}
 
 .aPropos {
     
@@ -675,8 +672,8 @@ ul li {
 
 .propos_container{
     background-color: rgb(255, 255, 255);
-    width: 70vw;
-    height: 80vh;
+    width: 60vw;
+    height: 85vh;
     border-radius: 10px;
     box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, 0.2);
 
